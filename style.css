@@ -1,0 +1,516 @@
+body{
+    margin-top: 0px;
+    font-family: sans-serif;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+.barra_superior{
+  border-bottom: 1px solid rgb(204, 204, 204);
+  color: rgb(187, 187, 187);
+  padding-top: 10px;
+  margin-right: -8px;
+  margin-left: -8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  background: #000;
+}
+.container{
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+
+}
+#cimaa{
+  font-size: 17px;
+  text-align: top;
+}
+/*preço*/
+.preco {
+  position: relative;
+  width: 300px;
+  margin-left: 100px;
+  display: table;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2E2E2E;
+  opacity: 80%;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.preco:hover .overlay {
+  width: 70%;
+}
+
+.text1 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/*preço*/
+
+/*preço*/
+.preco1 {
+  position: relative;
+  width: 300px;
+  margin-left: 450px;
+  margin-top: -304px;
+  display: table;
+}
+
+.preco1:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco2 {
+  position: relative;
+  width: 300px;
+  margin-left: 800px;
+  margin-top: -304px;
+  display: table;
+}
+
+.preco2:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco3 {
+  position: relative;
+  width: 300px;
+  margin-left: 100px;
+  display: table;
+}
+
+.preco3:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco4 {
+  position: relative;
+  width: 300px;
+  margin-top: -304px;
+  margin-left: 450px;
+  display: table;
+}
+
+.preco4:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco5 {
+  position: relative;
+  width: 300px;
+  margin-left: 800px;
+  margin-top: -304px;
+  display: table;
+}
+
+.preco5:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco6 {
+  position: relative;
+  width: 300px;
+  margin-left: 100px;
+  display: table;
+}
+
+.preco6:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco7 {
+  position: relative;
+  width: 300px;
+  margin-left: 450px;
+  margin-top: -304px;
+  display: table;
+}
+
+.preco7:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+/*preço*/
+.preco8 {
+  position: relative;
+  width: 300px;
+  margin-left: 800px;
+  margin-top: -304px;
+  display: table;
+}
+
+.preco8:hover .overlay {
+  width: 70%;
+}
+
+/*preço*/
+
+#exibicao{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  float: center;
+}
+
+section#aquele{
+  width: 100%;
+  height: 500px;
+  color: white;
+  background-image: url(../img/fundo.jpg);
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+section#aquele h1{
+  text-align: center; 
+  margin-bottom: -250px;
+  font-size: 30px;
+}
+ /*botão*/
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/**/
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: rgba(190, 0, 0, 0.3);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.button1 a{
+  text-decoration: none;
+  color: white;
+}
+/**/
+
+
+#armacao{
+  width: 90%;
+  height: 500px;
+  margin: auto;
+  background-image: url(../img/LogoLentes.png), url(../img/LogoArmacoes.png);
+  background-attachment: fixed, fixed; 
+  background-position: top left, top right;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 50%;
+}
+/* links de navegacao da pagina */
+nav{
+    color: rgb(187, 187, 187); /* muda a cor da fonte? */
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
+}
+
+nav a{
+    color: rgb(187, 187, 187); 
+    text-decoration: none; /*tira o underline do link */
+    
+}
+
+nav a.btn_destaque{
+    margin-left: 25px;
+}
+
+.btn_destaque{
+    background-color: rgb(255, 77, 77);
+    color: white;
+    padding: 12px 40px; /* margem interna do botao sup dir inf esq. somente um ele muda todos */
+    border-radius: 3px; /* arredonda as bordas */
+    
+    font-size: 12px;
+    text-decoration: none;
+    
+}
+
+.sec01{
+    height: 640px; /* altura da seção */
+    color: white;
+}
+
+.sec01 p.titulo{
+    font-size:48px;
+    padding-top: 100px;
+        
+}
+
+.sec01 p{
+    font-size: 24px;
+    padding-bottom: 30px;
+    line-height: 120%; /* distancia entre linhas do texto */
+}
+
+#rodape{
+    width: 1300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#rodape a{
+  text-decoration: none;
+}
+
+#sociais{
+    width: 350px;
+    float: left;
+    margin-left: 200px;
+}
+
+#sociais a{
+    text-decoration: none;
+    color: #2E2E2E;
+}
+
+#link{
+    width: 200px; 
+}
+#link h2{
+  color: #2E2E2E;
+}
+#contato{
+    width: 350px;
+    float: right;
+    margin-right: 200px;
+    margin-top: -137px;
+}
+#contato a{
+  text-decoration: none;
+  color: #2E2E2E;
+}
+
+#rasteiro{
+    width: 100%;
+    margin-right:auto;
+    margin-left:-8px;
+    margin-bottom: -10px;
+    background: #000;
+    color: #856D6D; 
+    text-align: center;
+    float: left;
+
+}
+#rasteiro a{
+    color: #856D6D; 
+    text-decoration: none;
+    text-align: center;
+}
+
+
+* {box-sizing:border-box}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1200px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.text:hover{
+  font: red;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.termoss{
+  width: 1200px;
+  margin: auto;
+}
